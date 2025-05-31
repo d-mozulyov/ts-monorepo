@@ -7,27 +7,30 @@
 
 # If we get here, we're on a Unix-like system
 SCRIPT_DIR="$( cd "$( dirname "$0" )" >/dev/null 2>&1 && pwd )"
-node "$SCRIPT_DIR/cli/setup.js" "$@"
+node "$SCRIPT_DIR/shared/cli/setup.js" "$@"
 exit $?
 
 : '
 :windows
 :: Windows-specific setup
+:: Remove #!/bin/sh warning
 @echo [1A[K[1A[K[1A[K[1A[K
 :: Get the directory where this script resides
 @echo off
 setlocal enabledelayedexpansion
 set "SCRIPT_DIR=%~dp0"
+set "__ARGS__=%*"
+set "__ARGS__=!__ARGS__:"=\"!"
 
 :: Check for admin rights
 net session >nul 2>&1
 if %errorLevel% == 0 (
     :: Already running with admin rights, run the Node.js script
-    node "%SCRIPT_DIR%cli\setup.js" %*
+    node "%SCRIPT_DIR%shared\cli\setup.js" %*
 ) else (
     :: Request elevation
     echo Requesting Administrator privileges...
-    powershell -Command "Start-Process cmd -ArgumentList '/c cd /d \"%CD%\" && \"%~f0\" %*' -Verb RunAs"
+    powershell -Command "Start-Process cmd -ArgumentList '/c cd /d \"%CD%\" && \"%~f0\" %__ARGS__%' -Verb RunAs"
 )
 
 exit /b %errorLevel%

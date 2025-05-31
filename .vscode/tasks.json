@@ -6,7 +6,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Empty Node.js",
                 "empty-node-js"
             ],
@@ -22,7 +22,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "React",
                 "react"
             ],
@@ -38,7 +38,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Next.js",
                 "next-js"
             ],
@@ -54,7 +54,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Angular",
                 "angular"
             ],
@@ -70,7 +70,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Vue.js",
                 "vue-js"
             ],
@@ -86,7 +86,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Svelte",
                 "svelte"
             ],
@@ -102,7 +102,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Express.js",
                 "express-js"
             ],
@@ -118,7 +118,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "NestJS",
                 "nestjs"
             ],
@@ -134,7 +134,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Fastify",
                 "fastify"
             ],
@@ -150,7 +150,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "AdonisJS",
                 "adonisjs"
             ],
@@ -166,7 +166,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "FeathersJS",
                 "feathersjs"
             ],
@@ -182,7 +182,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "React Native",
                 "react-native"
             ],
@@ -198,7 +198,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Expo",
                 "expo-app"
             ],
@@ -214,7 +214,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "NativeScript",
                 "nativescript"
             ],
@@ -230,7 +230,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Ionic",
                 "ionic"
             ],
@@ -246,7 +246,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Capacitor.js",
                 "capacitor-js"
             ],
@@ -262,7 +262,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Electron Solid",
                 "electron-solid"
             ],
@@ -278,7 +278,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Electron React",
                 "electron-react"
             ],
@@ -294,7 +294,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Electron Vue",
                 "electron-vue"
             ],
@@ -310,7 +310,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Electron Svelte",
                 "electron-svelte"
             ],
@@ -326,7 +326,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Electron Vanilla",
                 "electron-vanilla"
             ],
@@ -342,7 +342,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Tauri",
                 "tauri"
             ],
@@ -358,7 +358,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Neutralino.js",
                 "neutralino-js"
             ],
@@ -374,7 +374,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Proton Native",
                 "proton-native"
             ],
@@ -390,7 +390,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "Sciter",
                 "sciter"
             ],
@@ -406,7 +406,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "empty-node-js"
             ],
@@ -422,7 +422,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "react"
             ],
@@ -438,7 +438,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "next-js"
             ],
@@ -454,7 +454,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "angular"
             ],
@@ -470,7 +470,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "vue-js"
             ],
@@ -486,7 +486,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "svelte"
             ],
@@ -502,7 +502,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "express-js"
             ],
@@ -518,7 +518,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "nestjs"
             ],
@@ -534,7 +534,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "fastify"
             ],
@@ -550,7 +550,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "adonisjs"
             ],
@@ -566,7 +566,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "feathersjs"
             ],
@@ -582,7 +582,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "react_native"
             ],
@@ -598,7 +598,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "expo-app"
             ],
@@ -614,7 +614,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "nativescript"
             ],
@@ -630,7 +630,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "ionic"
             ],
@@ -646,7 +646,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "capacitor-js"
             ],
@@ -662,7 +662,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "electron-solid"
             ],
@@ -678,7 +678,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "electron-react"
             ],
@@ -694,7 +694,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "electron-vue"
             ],
@@ -710,7 +710,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "electron-svelte"
             ],
@@ -726,7 +726,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "electron-vanilla"
             ],
@@ -742,7 +742,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "tauri"
             ],
@@ -758,7 +758,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "neutralino-js"
             ],
@@ -774,7 +774,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "proton-native"
             ],
@@ -790,7 +790,7 @@
             "type": "shell",
             "command": "node",
             "args": [
-                "./cli/create-new.js",
+                "./shared/cli/create-new.js",
                 "--remove",
                 "sciter"
             ],

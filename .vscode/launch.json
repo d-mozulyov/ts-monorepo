@@ -5,7 +5,7 @@
             "type": "node",
             "request": "launch",
             "name": "Setup",
-            "program": "${workspaceFolder}/cli/setup.js",
+            "program": "${workspaceFolder}/shared/cli/setup.js",
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal"
         },
@@ -13,7 +13,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create New Project",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal"
@@ -22,7 +22,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Project Lock",
-            "program": "${workspaceFolder}/cli/create-project-lock.js",
+            "program": "${workspaceFolder}/shared/cli/create-project-lock.js",
             "args": [],
             "cwd": "${workspaceFolder}",
             "console": "integratedTerminal"
@@ -31,7 +31,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Empty Node.js",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Empty Node.js",
                 "empty-node-js",
@@ -45,7 +45,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create React",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "React",
                 "react",
@@ -59,7 +59,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Next.js",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Next.js",
                 "next-js",
@@ -73,7 +73,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Angular",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Angular",
                 "angular",
@@ -87,7 +87,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Vue.js",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Vue.js",
                 "vue-js",
@@ -101,7 +101,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Svelte",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Svelte",
                 "svelte",
@@ -115,7 +115,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Express.js",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Express.js",
                 "express-js",
@@ -129,7 +129,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create NestJS",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "NestJS",
                 "nestjs",
@@ -143,7 +143,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Fastify",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Fastify",
                 "fastify",
@@ -157,7 +157,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create AdonisJS",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "AdonisJS",
                 "adonisjs",
@@ -171,7 +171,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create FeathersJS",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "FeathersJS",
                 "feathersjs",
@@ -185,7 +185,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create React Native",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "React Native",
                 "react_native",
@@ -199,7 +199,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Expo",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Expo",
                 "expo-app",
@@ -213,7 +213,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create NativeScript",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "NativeScript",
                 "nativescript",
@@ -227,7 +227,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Ionic",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Ionic",
                 "ionic",
@@ -241,7 +241,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Capacitor.js",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Capacitor.js",
                 "capacitor-js",
@@ -255,7 +255,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Electron Solid",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Electron Solid",
                 "electron-solid",
@@ -269,7 +269,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Electron React",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Electron React",
                 "electron-react",
@@ -283,7 +283,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Electron Vue",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Electron Vue",
                 "electron-vue",
@@ -297,7 +297,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Electron Svelte",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Electron Svelte",
                 "electron-svelte",
@@ -311,7 +311,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Electron Vanilla",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Electron Vanilla",
                 "electron-vanilla",
@@ -325,7 +325,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Tauri",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Tauri",
                 "tauri",
@@ -339,7 +339,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Neutralino.js",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Neutralino.js",
                 "neutralino-js",
@@ -353,7 +353,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Proton Native",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Proton Native",
                 "proton-native",
@@ -367,7 +367,7 @@
             "type": "node",
             "request": "launch",
             "name": "Create Sciter",
-            "program": "${workspaceFolder}/cli/create-new.js",
+            "program": "${workspaceFolder}/shared/cli/create-new.js",
             "args": [
                 "Sciter",
                 "sciter",

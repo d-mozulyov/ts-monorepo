@@ -4,13 +4,15 @@
   "type": "module",
   "private": true,
   "workspaces": [
-    "projects/app"
+    "app"
   ],
   "scripts": {
     "clean": "npm run clean --workspaces",
     "lint": "npm run lint --workspaces",
     "test": "npm run test --workspaces",
     "build": "npm run build --workspaces",
+    "start": "npm run start --workspaces",
+    "dev": "npm run dev --workspaces",
     "clean:app": "npm run clean --workspace=@monorepo/app",
     "lint:app": "npm run lint --workspace=@monorepo/app",
     "test:app": "npm run test --workspace=@monorepo/app",

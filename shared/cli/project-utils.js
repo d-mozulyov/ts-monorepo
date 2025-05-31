@@ -15,8 +15,8 @@ const __debug = typeof process.debugPort === 'number';
 // Global constants for directory paths
 const __filename = fileURLToPath(import.meta.url);
 const __clidir = path.dirname(__filename);
-const __rootdir = path.dirname(__clidir);
-const __shareddir = path.join(__rootdir, 'shared');
+const __shareddir = path.dirname(__clidir);
+const __rootdir = path.dirname(__shareddir);
 
 // Colors object for console output formatting
 const colors = {
@@ -78,9 +78,9 @@ function getProjectDir(projectName, isLocal = false) {
   const normalizedProjectName = projectName.replace(/[\\/]/g, path.sep);
 
   if (isLocal) {
-    return path.join('projects', normalizedProjectName);
+    return path.join(/*'projects',*/ normalizedProjectName);
   }
-  return path.join(__rootdir, 'projects', normalizedProjectName);
+  return path.join(__rootdir, /*'projects',*/ normalizedProjectName);
 }
 
 /**
@@ -843,8 +843,8 @@ function createProjectSettings(projectName, projectType) {
 export {
   __debug,
   __clidir,
-  __rootdir,
   __shareddir,
+  __rootdir,
   colors,
   hasSymlinkPermissions,
   hasGit,
