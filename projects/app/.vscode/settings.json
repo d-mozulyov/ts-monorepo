@@ -3,14 +3,14 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   },
-  "eslint.validate": [
-    "typescript"
-  ],
+  "eslint.validate": ["typescript"],
   "typescript.tsdk": "node_modules/typescript/lib",
   "files.exclude": {
+    "node_modules": true,
     "dist": true
   },
   "search.exclude": {
+    "node_modules": true,
     "dist": true
   }
 }

@@ -1,0 +1,13 @@
+﻿# Ignore directories
+node_modules
+dist
+
+# VSCode files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Ignore internal symlinks
+src/@shared

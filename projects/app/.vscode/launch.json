@@ -6,13 +6,9 @@
       "request": "launch",
       "name": "Debug",
       "runtimeExecutable": "npm",
-      "runtimeArgs": [
-        "run",
-        "dev"
-      ],
+      "runtimeArgs": ["run", "dev"],
       "cwd": "${workspaceFolder}",
-      "console": "integratedTerminal",
-      "internalConsoleOptions": "neverOpen"
+      "console": "integratedTerminal"
     }
   ]
 }

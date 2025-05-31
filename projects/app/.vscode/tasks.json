@@ -35,6 +35,12 @@
       "type": "shell",
       "command": "npm run start",
       "group": "none"
+    },
+    {
+      "label": "Dev",
+      "type": "shell",
+      "command": "npm run dev",
+      "group": "none"
     }
   ]
 }
