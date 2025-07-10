@@ -20,7 +20,9 @@ exit $?
 setlocal enabledelayedexpansion
 set "SCRIPT_DIR=%~dp0"
 set "__ARGS__=%*"
-set "__ARGS__=!__ARGS__:"=\"!"
+if defined __ARGS__ (
+    set "__ARGS__=!__ARGS__:"=\"!"
+)
 
 :: Check for admin rights
 net session >nul 2>&1
