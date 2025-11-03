@@ -116,8 +116,12 @@ You can freely use the monorepo and create any projects within it, for example, 
 
 If the configuration for your project type hasn't been created yet, or if you want to report bugs or suggestions, you can contact us in the Telegram group [TypeScript Monorepo](https://t.me/ts_monorepo).
 
-In addition to the standard dialog, the `create-new.cmd` script can be called with arguments `--symlink`, `--remove`, `<ProjectType>`, `--git`, `--nogit`, for example:
+In addition to the standard dialog, the `create-new.cmd` script can be called with arguments `--symlink`, `--remove`, `<ProjectType>`, `--git`, `--nogit`, `--help`/`-h`, for example:
 ```bash
+// Show help information
+./create-new.cmd --help
+./create-new.cmd -h
+
 // Create Next.js project mynextapp
 ./create-new.cmd Next.js mynextapp
 
@@ -129,6 +133,19 @@ In addition to the standard dialog, the `create-new.cmd` script can be called wi
 
 // Remove it
 ./create-new.cmd --remove mydir/mymodule.ts
+```
+
+The `setup.cmd` script also supports the `--help`/`-h` flag to display usage information:
+```bash
+// Show help information
+./setup.cmd --help
+./setup.cmd -h
+
+// Setup all projects
+./setup.cmd
+
+// Setup specific projects
+./setup.cmd app myproj
 ```
 
 ## Contributing

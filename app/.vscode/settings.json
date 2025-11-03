@@ -5,6 +5,7 @@
   },
   "eslint.validate": ["typescript"],
   "typescript.tsdk": "node_modules/typescript/lib",
+  "search.useIgnoreFiles": false,
   "files.exclude": {
     "node_modules": true,
     "dist": true

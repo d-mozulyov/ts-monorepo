@@ -1721,7 +1721,8 @@ function prepareProjectVSCodeConfigs(settings) {
     "eslint.validate": [
       "typescript"
     ],
-    "typescript.tsdk": "node_modules/typescript/lib"
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "search.useIgnoreFiles": false
   };
   settings.vscode.add('settings', vscodeSettings);
 }

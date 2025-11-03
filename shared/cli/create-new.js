@@ -15,6 +15,47 @@ import { createNewProject, createNewSymlink } from './create-new-project.js';
 import os from 'os';
 
 /**
+ * Displays help information for the create-new script
+ */
+function showHelp() {
+  console.log(colors.bold('Usage:'));
+  console.log('  create-new [options] [projectType] [projectName] [--git | --nogit]');
+  console.log('');
+  console.log(colors.bold('Options:'));
+  console.log('  --help, -h          Show this help message');
+  console.log('  --remove <name>     Remove a project or shared module');
+  console.log('  --symlink <project> <symlinkPath> <sourcePath>');
+  console.log('                      Add a symlink to an existing project');
+  console.log('');
+  console.log(colors.bold('Project Types:'));
+  console.log('  Shared module       Create a new shared module in shared/');
+  console.log('  Empty Node.js       Create an empty Node.js project');
+  console.log('  React               Create a React project (Vite)');
+  console.log('  Next.js             Create a Next.js project');
+  console.log('  Angular             Create an Angular project');
+  console.log('  Vue.js              Create a Vue.js project (Vite)');
+  console.log('  Svelte              Create a Svelte project (Vite)');
+  console.log('  Express.js          Create an Express.js project');
+  console.log('  NestJS              Create a NestJS project');
+  console.log('  Electron [Solid|React|Vue|Svelte|Vanilla]');
+  console.log('                      Create an Electron project with specified framework');
+  console.log('');
+  console.log(colors.bold('Git Options:'));
+  console.log('  --git               Automatically add created files to Git');
+  console.log('  --nogit             Skip adding files to Git');
+  console.log('  (default)           Ask interactively whether to add to Git');
+  console.log('');
+  console.log(colors.bold('Examples:'));
+  console.log('  create-new                                      # Interactive menu');
+  console.log('  create-new React my-app                         # Create React project');
+  console.log('  create-new "Empty Node.js" my-app --git         # Create and add to Git');
+  console.log('  create-new "Shared module" utils/helpers.ts     # Create shared module');
+  console.log('  create-new --remove my-app                      # Remove project');
+  console.log('  create-new --symlink my-app src/lib shared/lib  # Add symlink');
+  console.log('');
+}
+
+/**
  * Parses command-line arguments and validates them
  * @returns {Object} Object with properties: operation, projectName, symlinkPath, symlinkSourcePath, gitOption
  * @throws {Error} If arguments are invalid
@@ -32,6 +73,12 @@ function parseArguments() {
   // If no arguments provided, return default result
   if (args.length === 0) {
     return result;
+  }
+
+  // Handle help flag
+  if (args[0] === '--help' || args[0] === '-h') {
+    showHelp();
+    process.exit(0);
   }
 
   // Handle --remove operation

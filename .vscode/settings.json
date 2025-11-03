@@ -13,6 +13,7 @@
     "typescript",
     "typescriptreact"
   ],
+  "search.useIgnoreFiles": false,
   "files.exclude": {
     "node_modules": true
   },
